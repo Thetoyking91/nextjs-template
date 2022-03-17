@@ -12,6 +12,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+  font-size: x-large;
 }
 
 * {
@@ -44,4 +47,10 @@ a {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+P {
+  font-size: x-large;
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <g fill="aqua">
+        <circle cx="50" cy="50" r="15" />
+
+        <text dx="30" font-size="60" dy="65" font-family="arial">
+            A
+        </text>
+    </g>
+</svg>
