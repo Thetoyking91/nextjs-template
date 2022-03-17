@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Navbar } from '../public/navbar'
+import styles from '../../styles/Home.module.css'
+import { Navbar } from '../../public/navbar'
 export default function Home() {
   return (
     <div>
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Niblet!
+          Welcome to the Comments Portion of Niblet!
         </h1>
       </main>
     </div>
