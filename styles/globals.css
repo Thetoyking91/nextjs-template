@@ -10,9 +10,14 @@ body {
     background-color: #1a1616;
 }
 
+div {
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+  font-size: x-large;
+}
+
 a {
-  color: inherit;
-  text-decoration: none;
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
   font-size: x-large;
