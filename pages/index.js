@@ -5,7 +5,7 @@ import { Navbar } from '../public/navbar'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="Niblet: the ad-less social media platform" />
@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Wlcome to Niblet!
+          Welcome to Niblet!
         </h1>
       </main>
     </div>
