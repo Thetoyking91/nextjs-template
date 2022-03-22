@@ -1,4 +1,4 @@
-import Template from "../public/Template";
+import Template from "./Template";
 
 export default function error() {
     return (
