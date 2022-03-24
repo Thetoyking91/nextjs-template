@@ -7,12 +7,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #111616;
 }
 
 div {
   text-align: center;
-  
+  background-color: #111616;
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
   font-size: x-large;
