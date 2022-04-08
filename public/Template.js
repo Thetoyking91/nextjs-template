@@ -10,7 +10,7 @@ export default class Template extends Component {
       <div>
         <Head>
           <title> { this.props.title } </title>
-          <meta name="description" content="Niblet: the ad-less social media platform" />
+          <meta name="description" content={this.props.desc} />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -20,6 +20,7 @@ export default class Template extends Component {
           <h1 className={styles.title}>
             {this.props.headText}
           </h1>
+          {this.props.children}
         </main>
       </div>
     )

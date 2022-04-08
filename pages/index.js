@@ -6,7 +6,7 @@ import Template from '../public/Template'
 export default function Home() {
   return (
     <div>
-      <Template title="Niblet" headText="Welcome to Niblet" />
+      <Template title="Template" headText="Welcome to Template" desc="Template" />
     </div>
   )
 }
